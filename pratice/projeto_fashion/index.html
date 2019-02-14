@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Pagina de exemplo estrutura basica</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Fernando Limeira">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tec, estudo">
+    </head>
+    <style>
+        body{
+            font-family: sans-serif;
+            width: 900px;
+            margin: auto;
+        }
+        .header-conteiner{
+            background-image: url(images/topo.jpg);
+            height: 550px;
+            background-position: center;
+            background-size:  cover;
+            border-top:1px solid white; 
+        }
+        .header-conteiner nav{
+            position: relative;
+            width: 100%;
+            height: 40px;
+            background-color: black;
+        }
+        .header-conteiner ul{
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top:8px;
+            right: 55px;
+        }
+        .header-conteiner ul li{
+            display: inline-block;
+        }
+        .header-conteiner img{
+            position: absolute;
+            left: 160px;
+        }
+        .header-conteiner a{
+            display: block;
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: rgb(47, 94, 100);
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 8px;
+            box-sizing: border-box;
+            transition: color .3s linear;
+        }
+        .header-conteiner a:hover{
+            color: white;
+        }
+        .section-conteiner{
+            margin: 80px;
+            text-align: center;
+        }
+        .section-conteiner h1{
+            font-size: 32px;
+        }
+        .section-conteiner div{
+            margin: 19px 0;
+        }
+        .section-conteiner p{
+            line-height: 2; 
+            font-size: 14px;        
+        }
+        
+        .img-conteiner{
+            display: inline-block;
+            width: 31%;
+            padding: 4px;
+            
+        }
+        
+        .img-conteiner img{
+            width: 100%;
+        }
+        .span-block-header{
+            display: block;
+            padding: 15px;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-weight: bold;
+            letter-spacing: 3px;
+            
+        }
+        .span-block{
+            display: block;
+            font-size: 14px;
+            color: gray;
+        }
+        .section-explain{
+            background-image: url(images/bg_detalhe.png);
+            background-color: #003d52;
+            color: white;
+            width: 100%;
+            margin: auto;
+            height: 550px;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            padding: 88px;
+            box-sizing: border-box;
+        }
+        .section-explain h1{
+            text-transform: uppercase;
+            font-weight: normal;
+            font-size: 38px;
+        }
+        .section-explain p{
+            line-height: 2;
+            width: 500px;
+        }
+        .section-map{
+            width: 100%;
+            
+        }
+        .section-map header{
+            margin: 45px 0;
+            text-align: center;
+            line-height: 0;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #0303a2;
+               
+        }
+        footer{
+            background-color: black;
+            height: 65px;
+        }
+    </style>
+    <body>
+        <header class="header-conteiner">
+            <nav>
+                <ul>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <img src="images/logo.png">
+            </nav>
+        </header>
+        <main>
+            <section class="section-conteiner">
+                <h1>New Fashion Everything Never Enough</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat nisi non ante dictum congue. Cras id odio gravida, posuere velit sed, lacinia mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula, ipsum vel congue cursus, mi neque tincidunt enim, egestas porttitor felis neque et risus. Maecenas fringilla hendrerit enim malesuada laoreet. Aenean quis tortor a odio tempus tincidunt. Vivamus rutrum nulla sed metus congue bibendum. Sed ut aliquam purus. Donec odio mauris, commodo sed dignissim vitae, dapibus eget mauris.
+                </p>
+                    <div>
+                        <div class="img-conteiner">
+                            <img src="images/modelo1.jpg">
+                            <span class="span-block-header">Vest Romasa</span>
+                            <span class="span-block">Strong & charismatic</span>
+                        </div>
+                        <div class="img-conteiner">
+                            <img src="images/modelo2.jpg">
+                            <span class="span-block-header">Jacket Fima</span>
+                            <span class="span-block">Power Fascinating</span>
+                        </div>
+
+                        <div class="img-conteiner">
+                            <img src="images/modelo3.jpg">
+                            <span class="span-block-header">Jacket Black Kira</span>
+                            <span class="span-block">Power Fascinating</span>
+                        </div>
+                    </div>
+            </section>
+            <section class="section-explain">
+                <h1>Everything Never Enough Just Fashion</h1>
+                <p>Praesent placerat eros eget lacus ullamcorper, id dapibus ante vestibulum. Curabitur quis condimentum diam. Duis aliquet erat vel laoreet tincidunt. Pellentesque vitae varius ligula. Phasellus in nibh tempus, gravida justo et, suscipit felis. Cras ornare arcu ac sodales tincidunt. Mauris vehicula erat vel ligula porttitor imperdiet. Curabitur nec magna urna. Sed porta ex ex, at pulvinar nibh aliquet quis. Integer dapibus congue vestibulum. Phasellus bibendum lobortis quam, nec sollicitudin nisl volutpat at.
+                </p>
+            </section>
+            <section class="section-map">
+                <header>
+                    <p>Call me now for design</p>
+                    <p>012-1234-4567</p>
+                </header>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126714.34324016362!2d-37.41857372493478!3d-7.030053699928829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a58b244f63312d%3A0x2a2d9c1e6ebb677!2sPatos+-+State+of+Para%C3%ADba%2C+Brazil!5e0!3m2!1sen!2sca!4v1549659497908" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </section>
+            <footer>
+                <p>Copyright &copy; fastfashion.com</p>
+            </footer>
+        </main>
+    </body>
+</html>

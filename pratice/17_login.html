@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Pagina de exemplo estrutura basica</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Fernando Limeira">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tec, estudo">
+        <style>
+            .form-login{
+                width: 250px;
+                margin: auto;
+            }
+            .form-login fieldset{
+                background-color: aqua;
+            }
+            
+            #user, #pass, .btn{
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                margin-bottom: 15px;
+                font-size: 18px;
+                font-family: sans-serif;
+                border: none;
+            }
+            .btn{
+            }
+        </style>
+    </head>
+    <body>
+        <h1>exemplo formulario</h1>
+        <form class="form-login" action="#" method="post" target="_blank">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="user">Digite seu usuário</label>
+                <input type="text" id="user" name="user">
+                
+                <label for="pass">Digite a senha</label>
+                <input type="password" id="pass" name="pass">
+                
+                <input class="btn" type="submit" value="Logar">
+            </fieldset>
+            
+        </form>
+    </body>
+</html>
